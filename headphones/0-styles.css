@@ -1,0 +1,108 @@
+
+/* Content Layout */
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  /* Styles for mobile version go here */
+  .container {
+    /* Example mobile adjustments */
+    padding: 10px;
+  }
+}
+
+/* Links Styling */
+a {
+  text-decoration: none;
+  color: inherit; /* Adjust based on your design */
+}
+
+
+a:hover, a:active {
+  color: #FF6565;
+}
+
+/* Buttons Styling */
+button {
+  /* Add base button styles as needed */
+  cursor: pointer;
+}
+
+button:hover, button:active {
+  opacity: 0.9;
+}
+.header-with-bg {
+  background-image: url('images/headphones_hero_1.jpg');
+  background-size: cover; /* Adjusts image to cover the header */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image repetition */
+  /* Add other styles as needed for height, padding, etc. */
+  padding: 20px;
+  height: 600px; /* Example height */
+   width: 100%;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Adjust text color for visibility */
+}
+.cta-button {
+  background-color: #FF6565;
+   color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px; /* Adds rounded corners */
+}
+
+.cta-button:hover {
+  opacity: 0.9;
+}
+
+
+
+.logo {
+  position: absolute; /* Position relative to header */
+  top: 10px; /* Distance from top */
+  left: 10px; /* Distance from left */
+  width: 20%; /* Example logo width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+header p {
+  width: 600px; /* Adjust width to force text into ~4 lines */
+  text-align: center;
+}
+
+.nav-links {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.nav-links a:hover {
+  color: #FF6565;
+}
+
+p {
+  width: 250px;
+  text-align: center;
+}
+
+
